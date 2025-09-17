@@ -43,4 +43,22 @@ chmode x+ git-automation.sh
 
 # Customization
 
-The default script comes with my personal setup.
+The default script comes with my personal setup. You need to change this section to make it suitable for your needs :
+
+``` bash
+if [ $CHOOSE == 1 ]; then
+		git add path/to/your/file1
+	elif [ $CHOOSE == 2 ]; then
+		git add path/to/your/file2
+	elif [ $CHOOSE == 3 ]; then
+		git add path/to/your/file3
+	else
+		echo "That's not an option!"
+        # Restore added files
+        git restore --staged .
+		exit 1
+	fi
+```
+
+Also edit the default menu options.
+
