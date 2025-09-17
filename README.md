@@ -13,4 +13,10 @@ This is optional, for get those beautiful banner, you need :
 - [Figlet](http://www.figlet.org/) for the stylize text.
 - [Lolcat](https://github.com/busyloop/lolcat) for the rainbow effect.
 
-# Usage:
+# Installation
+
+``` $git clone https://github.com/mrheriyansyah/git-automation.git ```
+
+# Usage
+
+Ideally, you put this program to directory with git setup.
