@@ -14,6 +14,12 @@ This is optional, for get those beautiful banner, you need :
 - [Figlet](http://www.figlet.org/) for the stylize text.
 - [Lolcat](https://github.com/busyloop/lolcat) for the rainbow effect.
 
+If you feel's like don't need those (really?), you can commenting these lines :
+
+```bash
+xxx
+```
+
 # Installation
 
 1. Clone this repo to your local machine
@@ -43,7 +49,7 @@ chmode x+ git-automation.sh
 
 # Customization
 
-The default script comes with my personal setup. You need to change this section to make it suitable for your needs :
+The default script comes with my personal setup. You need to change file's path that match with the number on the menu on this section to make it suitable for your needs :
 
 ``` bash
 if [ $CHOOSE == 1 ]; then
@@ -59,6 +65,3 @@ if [ $CHOOSE == 1 ]; then
 		exit 1
 	fi
 ```
-
-Also edit the default menu options.
-
