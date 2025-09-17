@@ -16,14 +16,31 @@ This is optional, for get those beautiful banner, you need :
 
 # Installation
 
+1. Clone this repo to your local machine
+
 ```
 git clone https://github.com/mrheriyansyah/git-automation.git
 cd git-automation
+```
+2. Copy or move the script into your project's directoy
 
-# Copy or move script file to your project directory
+```
 cp git-automation.sh ~/path/to/your/project/
+```
+3. Make it executable
+```
+chmode x+ git-automation.sh
 ```
 
 # Usage
 
-Ideally, you put this program to directory with git is setup.
+1. Run the script with `sh push.sh`.
+2. Choose by typing the number of file you want to commit that shows on the menu.
+3. Type the commit message for that file.
+4. Choose [y]es if you want to add more files, it will shows the menu options again. Or choose [n]o if you want to process the push.
+5. Input the ssh key if required.
+6. Your files should be updated on GitHub.
+
+# Customization
+
+The default script comes with my personal setup.
