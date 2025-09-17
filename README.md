@@ -17,7 +17,13 @@ This is optional, for get those beautiful banner, you need :
 If you feel's like don't need those (really?), you can commenting these lines :
 
 ```bash
-xxx
+figlet -l -f 3d.flf "GIT AUTOMATION" | lolcat
+```
+
+And replace it with this line :
+
+```bash
+echo "GIT AUTOMATION"
 ```
 
 # Installation
